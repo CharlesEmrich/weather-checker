@@ -3,3 +3,5 @@ node_modules/
 build/
 tmp/
 bower_components/
+
+.env
