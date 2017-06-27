@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <!-- <link rel="stylesheet" href="build/css/vendor.css"> UNCOMMENT IF YOU INSTALL ANY CSS COMPONENTS WITH BOWER -->
+    <link rel="stylesheet" href="build/css/styles.css">
+    <script type="text/javascript" src="build/js/vendor.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
+  </head>
+  <body>
+    <div class="container search-view">
+      <form class="search-form">
+        <label for="city">City Name</label>
+        <input type="text" name="city" value="Portland, OR">
+        <input type="submit">
+      </form>
+    </div>
+    <div class="container weather-view">
+      <h1 class="city-name">City Name</h1>
+      <div class="temp">
+        <span>54</span>
+        <div class="temp-controls">
+          <button type="button" name="kelvin">&#8490;</button>
+          <button type="button" name="celsius">&#8451;</button>
+          <button type="button" name="fahrenheit">&#8457;</button>
+        </div>
+      </div>
+      <button class="search-again" type="button">Change Places.</button>
+      <div class="humidity">
+        <span>85%</span>
+      </div>
+    </div>
+  </body>
+</html>
