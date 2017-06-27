@@ -8,7 +8,13 @@
   }
 }
 
-html, body, .container {
+html, body {
   @include size(100%);
   overflow: hidden;
+}
+
+.container {
+  width: calc(100% - #{$container-padding * 2});
+  height: calc(100% - #{$container-padding * 2});
+  padding: $container-padding;
 }
